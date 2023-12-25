@@ -1,0 +1,61 @@
+.jobcardRow {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.jobcardImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.jobcardLabel {
+  top: 40px;
+  right: -7px;
+}
+
+.jobcardFeatured {
+  width: 80px;
+  background-color: rgba(220, 38, 38, 1);
+}
+
+.arrow-top-right {
+  width: 5px;
+  border-left: 0px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 7px solid rgba(220, 38, 38, 1);
+}
+
+.jobtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.jobtype {
+  background-color: #20c997;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.qrcode {
+  width: 25px;
+  cursor: pointer;
+}
+
+.jobsalary {
+  font-weight: bold;
+}
+
+.likebtn {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.jobsalaryextra {
+  font-size: 0.7rem;
+}
+
+.qrcodebg {
+  border: 1px solid #fff;
+}

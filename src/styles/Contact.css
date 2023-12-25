@@ -1,0 +1,116 @@
+.contactPadding {
+	padding: 1rem 0;
+}
+
+.contactHeader {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 1rem 10rem;
+}
+
+.contactContent {
+	padding: 0 10rem;
+}
+
+.contactFlex div {
+	flex: 50%;
+}
+
+.contactFlex div img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+.contactText {
+	padding: 2rem 0 !important;
+	padding-left: 5rem !important;
+}
+
+.lettalk {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.lettalktext {
+	font-size: 1.6rem;
+	font-weight: bolder;
+}
+
+.lettalktext1 {
+	font-weight: bolder;
+}
+
+.contactDot {
+	font-weight: bolder;
+}
+
+.contactMail {
+	width: 40px;
+	height: 40px;
+}
+
+.contactLast {
+	padding: 0 10rem;
+}
+
+.contactLastContent div {
+	flex: 50%;
+}
+
+.contactlasttext {
+	font-weight: 500;
+	text-align: justify;
+	margin-top: 1.5rem;
+}
+
+.contactInput {
+	background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+.contactNoneMargin {
+	margin-inline: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contactFlex {
+		flex-direction: column;
+	}
+
+	.contactFlex > div {
+		margin: 2rem 0;
+	}
+
+	.contactText {
+		padding: 0 !important;
+	}
+
+	.contactFlex div img {
+		margin-top: 1.5rem;
+	}
+
+	.contactLastContent {
+		flex-direction: column;
+	}
+
+	.contactNoneMargin {
+		margin-top: 2rem;
+		margin-inline: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.contactFlex {
+		flex-direction: column-reverse;
+	}
+	.contactHeader {
+		padding: 1rem 2rem;
+	}
+	.contactContent {
+		padding: 0 2rem;
+	}
+	.contactLast {
+		padding: 0 2rem;
+	}
+}

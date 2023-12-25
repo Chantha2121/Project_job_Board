@@ -1,0 +1,24 @@
+.categoryListicon {
+	width: 20px;
+	height: 20px;
+}
+
+.categoryListpadding {
+	margin: 0;
+}
+
+.categoryListgroup {
+	height: 400px;
+}
+
+.categoryListcontainer {
+	width: 50%;
+}
+
+.categoryListInner {
+	width: 100%;
+}
+
+.categoryListtext {
+	font-weight: bold;
+}

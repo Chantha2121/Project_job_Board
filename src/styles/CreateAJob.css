@@ -1,0 +1,59 @@
+.createajobContainer {
+	margin: 0 10rem;
+}
+
+.createajobCircle {
+	width: 35px;
+	height: 35px;
+	background-color: #20c997;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.createajobText {
+	font-weight: bold;
+}
+
+.createajobInput {
+	width: 100%;
+}
+
+.createajobicon {
+	width: 20px;
+	height: 20px;
+	color: #20c997 !important;
+}
+.teal-color{
+	color: red !important;
+}
+.createajobplusicon {
+	width: 20px;
+	height: 20px;
+}
+
+.createajobfontbold {
+	font-weight: bold;
+}
+
+.createajoblastbtn {
+	background: transparent;
+	border: none;
+	outline: none;
+	transition: all 0.3s;
+}
+
+.createajoblastbtn:hover {
+	background: #20c997;
+}
+
+@media only screen and (max-width: 992px) {
+	.createajobContainer {
+		margin: 0 2rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.createajobbtn {
+		font-size: 0.9rem;
+	}
+}

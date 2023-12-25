@@ -1,0 +1,21 @@
+/*JobDetail*/
+
+.jobDetailFlex {
+  width: 50%;
+}
+
+.jobDetailIcon {
+  width: 50px;
+  height: auto;
+}
+
+.jobDetailFont {
+  font-weight: bolder;
+}
+
+/*JobDetails*/
+
+ .jobDetailsContainer {
+     margin: 0 3rem;
+     margin-bottom: 5rem;
+   }

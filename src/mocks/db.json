@@ -1,0 +1,246 @@
+{
+  "users": [
+    {
+      "id": 1001,
+      "username": "Yien",
+      "fullname": "Soth Yien",
+      "email": "Brossyien@gmail.com",
+      "password": "2203",
+      "term": true
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1679361292720,
+      "title": "developer",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Social Services",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": null,
+      "keywords": [
+        "hello"
+      ],
+      "salary": "1500",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bechelor-degree",
+      "companyName": "company1",
+      "companyWebsite": "www.facebook.com",
+      "logoUrl": "pic1.jpg",
+      "photoUrls": [],
+      "featured": true
+    },
+    {
+      "id": 1684318397139,
+      "title": "RUPP",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Warehouse",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": "i like it",
+      "keywords": [
+        "teach"
+      ],
+      "salary": "1200",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bechelor-degree",
+      "companyName": "RUPP",
+      "companyWebsite": "RUPP.KH",
+      "logoUrl": "pic9.jpg",
+      "photoUrls": [
+        "pic2.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1684319143710,
+      "title": "Teacher",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Media",
+      "address": {
+        "country": "Cambodia",
+        "city": "SeimReap"
+      },
+      "description": "Teach",
+      "keywords": [
+        "teach"
+      ],
+      "salary": "1200",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "master-degree",
+      "companyName": "RUPP",
+      "companyWebsite": "RUPP.com",
+      "logoUrl": "pic1.jpg",
+      "photoUrls": [
+        "pic1.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1684319751234,
+      "title": "shopping",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Marketing",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": null,
+      "keywords": [
+        "market"
+      ],
+      "salary": "4999",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bechelor-degree",
+      "companyName": "Eon",
+      "companyWebsite": "Eon.com",
+      "logoUrl": "pic10.jpg",
+      "photoUrls": [
+        "pic10.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1684320212317,
+      "title": "Phython",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Science",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": null,
+      "keywords": [
+        "website"
+      ],
+      "salary": "2300",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "master-degree",
+      "companyName": "Phython",
+      "companyWebsite": "reanmore.net",
+      "logoUrl": "pic3.jpg",
+      "photoUrls": [
+        "pic6.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1689075048903,
+      "title": "student",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Shipping",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": "hi",
+      "keywords": [
+        "yes"
+      ],
+      "salary": "10002",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bechelor-degree",
+      "companyName": "net",
+      "companyWebsite": "net",
+      "logoUrl": "pic7.jpg",
+      "photoUrls": [
+        "pic7.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1689662105147,
+      "title": "java",
+      "isOwnCompany": false,
+      "onBehalfOfOtherCompany": "",
+      "category": "Media",
+      "address": {
+        "country": "Cambodia",
+        "city": "SR"
+      },
+      "description": "haha",
+      "keywords": [
+        "123"
+      ],
+      "salary": "1000",
+      "salaryType": "annually",
+      "jobType": "full-time",
+      "experience": "master-degree",
+      "companyName": "web",
+      "companyWebsite": "web",
+      "logoUrl": "pic3.jpg",
+      "photoUrls": [
+        "pic5.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1694235080203,
+      "title": "RUPP",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "Noneprofit",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": "Hello",
+      "keywords": [
+        "opp"
+      ],
+      "salary": "19000",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bechelor-degree",
+      "companyName": "fa",
+      "companyWebsite": "fa",
+      "logoUrl": "pic7.jpg",
+      "photoUrls": [
+        "pic10.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1702554573982,
+      "title": "Full-time",
+      "isOwnCompany": true,
+      "onBehalfOfOtherCompany": "",
+      "category": "QA",
+      "address": {
+        "country": "Cambodia",
+        "city": "Phnom Penh"
+      },
+      "description": "Hello Java",
+      "keywords": [
+        "deploy"
+      ],
+      "salary": "$1000",
+      "salaryType": "hourly",
+      "jobType": "full-time",
+      "experience": "master-degree",
+      "companyName": "Anime",
+      "companyWebsite": "Anime",
+      "logoUrl": "pic4.jpg",
+      "photoUrls": [
+        "pic7.jpg"
+      ],
+      "featured": false
+    }
+  ]
+}

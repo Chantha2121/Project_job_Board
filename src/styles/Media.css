@@ -1,0 +1,36 @@
+/*Media*/
+
+.mediaIcon {
+	font-size: 3rem;
+}
+
+.mediaImage {
+	width: 30%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+.MediaIconDelete {
+	top: 25%;
+	left: 10%;
+}
+
+@media only screen and (max-width: 720px) {
+	.MediaIconDelete {
+		font-size: 2rem;
+		top: 19%;
+		left: 8%;
+	}
+}
+
+.photoUrlMedia {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+
+.warningMargin {
+	margin: 0 4rem;
+}

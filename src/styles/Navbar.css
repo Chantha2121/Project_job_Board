@@ -1,0 +1,63 @@
+.myFont{
+	font-size: 1.6rem;
+	color: #000;
+	font-weight: bolder;
+}
+.myFont span{
+	color: #00DCDC;
+}
+.myLink{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+.myButton{
+	background-color: #00DCDC;
+	padding: 13px 30px;
+	border-radius: 6px;
+	color: #fff;
+	transition: all 0.3s;
+}
+.myButton:hover{
+  background-color: rgb(6, 250, 31);	
+	color: #fff;
+	border: 1px solid blueviolet;
+}
+.myToggleIcons{
+	display: none;
+}
+.myIconsDimension{
+		width: 30px;
+		height: 30px;	
+}
+.mySlideNavbar{
+  background-color: #00DCDC !important;
+	width: 300px !important;
+}
+.mySideFont{
+	color: #fff !important;
+	font-size: 1.1rem !important;
+  font-weight: bolder !important;
+}
+.sideNavbarPostJobBtn{
+	border: 1px solid #fff !important;
+	border-radius:6px;
+	padding: 13px 30px;
+	transition: all 0.3s;
+}
+.sideNavbarPostJobBtn:hover{
+	 background-color: greenyellow !important;
+	 color: #fff !important;
+   border-color: 2px blueviolet !important; 
+}
+@media only screen and (max-width: 768px) {
+	.myToggleIcons{
+		display: block;
+	}
+	.myTitle{
+		display: none;
+	}
+	.myLinkGroup{
+		visibility: hidden;
+	}
+}

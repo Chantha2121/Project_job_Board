@@ -1,13 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./page/Home";
+import Contact from "./page/Contact";
+import PostJob from "./page/PostJob";
+import JobDetails from "./page/JobDetails";
+import JobDetail from "./components/JobDetail";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/post-job" element={<PostJob />} />
+          <Route path="/job-details" element={<JobDetails />}>
+            <Route path=":id" element={<JobDetail />} />
+          </Route>
+        </Route>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
