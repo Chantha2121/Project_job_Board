@@ -23,7 +23,6 @@ function JobDetail(props) {
               </button>
             )}
           </div>
-
           <div>
             <div>
               <p>
